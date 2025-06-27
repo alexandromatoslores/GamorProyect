@@ -1,0 +1,21 @@
+{
+  "name": "Gamor - Stream Party Platform",
+  "short_name": "Gamor",
+  "description": "Join live streaming communities and find gaming parties. Connect with fellow gamers on our platform.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f0f0f0",
+  "theme_color": "#7F00FF",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["entertainment", "social", "games"],
+  "lang": "en",
+  "dir": "ltr"
+} 

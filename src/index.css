@@ -1,0 +1,151 @@
+:root {
+  --dark: #2e293a;
+  --light: rgb(250, 250, 250);
+  --grey: #999;
+  --lightgrey: #ddd;
+  --darkgrey: #555;
+  --concrete: rgb(110, 110, 110);
+
+  --background: rgb(240, 240, 240);
+  --background-translucent: rgba(255,255,255,0.05);
+  --block: rgb(222, 219, 219);
+
+  --highlight: #cc5500;
+  --hover: #7F00FF;
+  --active: #e43090;
+
+  --shadow: rgba(100, 100, 100, 0.2);
+
+  --button-light-bg: #e5e5e5;   
+  --button-light-color: #151515;  
+  --button-dark-bg: #23242a;    
+  --button-dark-color: #fff;   
+}
+
+[data-theme="dark"] {
+  --dark: #fbfcf9;
+  --light: rgb(10, 10, 10);
+
+  --lightgrey: #222;
+  --darkgrey: #555;
+  --concrete: rgb(220, 220, 220);
+
+  --background: rgb(15, 15, 15);
+  --background-translucent: rgba(24,24,24,0.1);
+  --block: rgb(25, 25, 25);
+  
+  --shadow: rgba(240, 240, 240, 0.2); 
+
+  --button-light-bg: #23242a;
+  --button-light-color: #fff;
+  --button-dark-bg: #23242a;
+  --button-dark-color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--background);
+  color: var(--dark);
+  min-height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.6;
+}
+
+.main-container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.theme-toggle-container {
+  width: 90%;
+  margin-left: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.auth {
+  background-color: black;
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 900px) {
+  body {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--background);
+  }
+  
+  .main-container {
+    padding: 1.5rem 0.75rem;
+    gap: 2rem;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+button:focus,
+a:focus,
+input:focus,
+select:focus {
+  outline: 2px solid var(--hover);
+  outline-offset: 2px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(120,120,140,0.08);
+  border-radius: 8px;
+  transition: background 0.2s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(120,120,140,0.15);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(120,120,140,0.08) transparent;
+}
+
+html, body, #root {
+  overflow-x: hidden !important;
+}

@@ -1,0 +1,131 @@
+.formContainer {
+  max-width: 370px;
+  margin: 48px auto;
+  padding: 36px 28px 28px 28px;
+  background: rgba(255, 255, 255, 0.2); /* Blanco con 50% de opacidad */
+  backdrop-filter: blur(8px); /* Efecto de desenfoque para mejor legibilidad */
+  border-radius: 18px;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.10);
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  position: relative;
+  z-index: 2;
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Borde sutil para mejor definición */
+}
+
+.formTitle {
+  text-align: center;
+  font-size: 1.7em;
+  font-weight: 800;
+  margin-bottom: 6px;
+  color: var(--dark, #222);
+  letter-spacing: 0.01em;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.input {
+  padding: 12px 14px;
+  border: 1.5px solid var(--lightgrey, #ddd);
+  border-radius: 10px;
+  font-size: 1.08em;
+  /* background: var(--background, #fafafa); */
+  transition: border 0.2s, box-shadow 0.2s;
+  font-family: inherit;
+  /* color: var(--dark, #222); */
+}
+
+.input:focus {
+  border: 1.5px solid var(--hover, #7F00FF);
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(127,0,255,0.08);
+  background: #fff;
+}
+
+.button {
+  padding: 12px 0;
+  background: linear-gradient(90deg, var(--hover, #7F00FF) 60%, var(--darkgrey, #444) 100%);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.13em;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+  box-shadow: 0 2px 8px rgba(127,0,255,0.06);
+  letter-spacing: 0.01em;
+}
+
+.button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.button:hover:not(:disabled) {
+  background: linear-gradient(90deg, var(--darkgrey, #444) 60%, var(--hover, #7F00FF) 100%);
+  transform: translateY(-2px) scale(1.03);
+}
+
+.link {
+  color: var(--hover, #7F00FF);
+  text-decoration: none;
+  font-size: 1em;
+  text-align: center;
+  margin-top: 10px;
+  transition: color 0.2s;
+  font-weight: 500;
+}
+
+.link:hover {
+  color: var(--darkgrey, #444);
+  text-decoration: underline;
+}
+
+.error {
+  color: #e43090;
+  text-align: center;
+  font-size: 1em;
+  background: #fff0fa;
+  border-radius: 8px;
+  padding: 6px 0;
+  margin-bottom: 2px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.avatarPreview {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 10px auto 0 auto;
+  box-shadow: 0 2px 8px rgba(127,0,255,0.10);
+  border: 2px solid var(--hover, #7F00FF);
+  display: block;
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.overlay::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url('/media/Dota 2.jpg') center center / cover no-repeat;
+  filter: blur(6px); 
+  z-index: 0;
+}
+

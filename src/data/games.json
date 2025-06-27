@@ -1,0 +1,112 @@
+[
+  {
+    "name": "LoL Masters",
+    "platform": "Match",
+    "game": {
+      "name": "League of Legends",
+      "category": "Strategy Game"
+    },
+    "members": ["alex", "cris", "leo"],
+    "state": "active",
+    "language": "en"
+  },
+  {
+    "name": "Valorant Squad",
+    "platform": "Party",
+    "game": {
+      "name": "VALORANT",
+      "category": "Shooter Games"
+    },
+    "members": ["david", "uzi", "dan"],
+    "state": "active",
+    "language": "es"
+  },
+  {
+    "name": "Fortnite Crew",
+    "platform": "Stream",
+    "game": {
+      "name": "Fortnite",
+      "category": "Action Games"
+    },
+    "members": ["leo", "lili", "lucia"],
+    "state": "active",
+    "language": "en"
+  },
+  {
+    "name": "Block Builders",
+    "platform": "Party",
+    "game": {
+      "name": "Minecraft",
+      "category": "Casual"
+    },
+    "members": ["sam", "pedro", "pepe"],
+    "state": "inactive",
+    "language": "en"
+  },
+  {
+    "name": "Los Santos Crew",
+    "platform": "Match",
+    "game": {
+      "name": "Grand Theft Auto V",
+      "category": "Action Games"
+    },
+    "members": ["doku", "fide", "frank"],
+    "state": "inactive",
+    "language": "fr"
+  },
+  {
+    "name": "CS2 Pros",
+    "platform": "Stream",
+    "game": {
+      "name": "Counter-Strike 2",
+      "category": "Shooter Games"
+    },
+    "members": ["nia", "niko", "dev"],
+    "state": "active",
+    "language": "fr"
+  },
+  {
+    "name": "Warzone Squad",
+    "platform": "Party",
+    "game": {
+      "name": "Call of Duty Warzone",
+      "category": "Shooter Games"
+    },
+    "members": ["gorge", "juan", "luis"],
+    "state": "inactive",
+    "language": "es"
+  },
+  {
+    "name": "Apex Legends Team",
+    "platform": "Match",
+    "game": {
+      "name": "Apex Legends",
+      "category": "Shooter Games"
+    },
+    "members": ["cris", "alex", "carmen"],
+    "state": "active",
+    "language": "ch"
+  },
+  {
+    "name": "Dota Champions",
+    "platform": "Stream",
+    "game": {
+      "name": "Dota 2",
+      "category": "Strategy Game"
+    },
+    "members": ["leo", "lili", "lucia"],
+    "state": "active",
+    "language": "ch"
+  },
+  {
+    "name": "Just Chatting",
+    "platform": "Party",
+    "game": {
+      "name": "Just Chatting",
+      "category": "Casual"
+    },
+    "members": ["nia", "niko", "dev"],
+    "state": "inactive",
+    "language": "en"
+  }
+]

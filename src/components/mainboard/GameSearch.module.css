@@ -1,0 +1,48 @@
+.stepNum {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--hover);
+  margin-right: 0.5rem;
+}
+.stepCont {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--dark);
+}
+.searchContainer {
+  background: var(--light);
+  border-radius: 22px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.10);
+  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+  margin-top: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  height: 380px;
+  box-sizing: border-box;
+}
+.searchHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 0.7rem;
+  border-bottom: 1px solid #ececec;
+}
+.selectWrapper {
+  position: relative;
+  width: 100%;
+}
+.fixedDropdownIcon {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 2;
+}
+@media (max-width: 600px) {
+  .searchContainer {
+    padding: 1rem;
+    height: 260px;
+  }
+} 

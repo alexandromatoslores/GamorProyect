@@ -1,0 +1,52 @@
+[
+    {
+        "id": "1",
+        "name": "Action Games",
+        "imgPath": "/media/categories/Action.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Sports Games",
+        "imgPath": "/media/categories/Sports.jpg"
+    },
+    {
+        "id": "3",
+        "name": "adventure Games",
+        "imgPath": "/media/categories/Adventure.jpg"
+    },
+    {
+        "id": "4",
+        "name": "Arcade Games",
+        "imgPath": "/media/categories/Arcade.jpg"
+    },
+    {
+        "id": "5",
+        "name": "Fantasy Game",
+        "imgPath": "/media/categories/Fantasy.jpg"
+    },
+    {
+        "id": "6",
+        "name": "Strategy Game",
+        "imgPath": "/media/categories/Strategy.jpg"
+    },
+    {
+        "id": "7",
+        "name": "Shooter Games",
+        "imgPath": "/media/categories/Shooter.jpg"
+    },
+    {
+        "id": "8",
+        "name": "Role-Playing",
+        "imgPath": "/media/categories/Role-Playing.jpg"
+    },
+    {
+        "id": "9",
+        "name": "Simulation",
+        "imgPath": "/media/categories/Simulation.jpg"
+    },
+    {
+        "id": "10",
+        "name": "Casual",
+        "imgPath": "/media/categories/Casual.jpg"
+    }
+]

@@ -1,0 +1,89 @@
+.button {
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-family: inherit;
+}
+
+.button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.primary {
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+.primary:hover:not(:disabled) {
+    background-color: var(--hover);
+    transform: translateY(-2px);
+}
+
+.secondary {
+    background-color: transparent;
+    color: var(--dark);
+    border: 2px solid var(--dark);
+}
+
+.secondary:hover:not(:disabled) {
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+.outline {
+    background-color: transparent;
+    color: var(--dark);
+    border: 1px solid var(--lightgrey);
+}
+
+.outline:hover:not(:disabled) {
+    background-color: var(--lightgrey);
+    border-color: var(--dark);
+}
+
+.round {
+    border-radius: 50px;
+}
+
+.small {
+    padding: 8px 16px;
+    font-size: 14px;
+    min-height: 36px;
+}
+
+.medium {
+    padding: 12px 24px;
+    font-size: 16px;
+    min-height: 44px;
+}
+
+.large {
+    padding: 16px 32px;
+    font-size: 18px;
+    min-height: 52px;
+}
+
+.danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+.danger:hover:not(:disabled) {
+    background-color: #c82333;
+}
+
+.success {
+    background-color: #28a745;
+    color: white;
+}
+
+.success:hover:not(:disabled) {
+    background-color: #218838;
+} 
